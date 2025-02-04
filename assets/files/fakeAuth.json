@@ -1,0 +1,16 @@
+{
+    "users": [
+      {
+        "email": "user@test.com",
+        "password": "user",
+        "has2FA": false
+      },
+      {
+        "email": "admin@test.com",
+        "password": "admin",
+        "has2FA": true,
+        "twoFACode": "123456"
+      }
+    ]
+  }
+  
