@@ -10,6 +10,13 @@
         "password": "admin",
         "has2FA": true,
         "twoFACode": "123456"
+      },
+      {
+        "email": "blocked@test.com",
+        "password": "blocked",
+        "id": "888777666",
+        "has2FA": false,
+        "isBlocked": true
       }
     ]
   }

@@ -1,0 +1,4 @@
+{
+    "users": ["user@test.com", "admin@test.com"],
+    "referral": ["123456", "123456ASD"]
+}
