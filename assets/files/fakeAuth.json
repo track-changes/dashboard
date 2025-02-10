@@ -1,23 +1,24 @@
 {
     "users": [
-      {
-        "email": "user@test.com",
-        "password": "user",
-        "has2FA": false
-      },
-      {
-        "email": "admin@test.com",
-        "password": "admin",
-        "has2FA": true,
-        "twoFACode": "123456"
-      },
-      {
-        "email": "blocked@test.com",
-        "password": "blocked",
-        "id": "888777666",
-        "has2FA": false,
-        "isBlocked": true
-      }
+        {
+            "email": "user@test.com",
+            "password": "user",
+            "recoveryCode": "123456",
+            "has2FA": false
+        },
+        {
+            "email": "admin@test.com",
+            "password": "admin",
+            "has2FA": true,
+            "recoveryCode": "123456",
+            "twoFACode": "123456"
+        },
+        {
+            "email": "blocked@test.com",
+            "password": "blocked",
+            "id": "888777666",
+            "has2FA": false,
+            "isBlocked": true
+        }
     ]
-  }
-  
+}
